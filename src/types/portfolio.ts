@@ -5,7 +5,7 @@ export interface Portfolio {
   projects: Project[];
   testimonials?: Testimonial[];
   education: EducationItem[];
-  nav: NavItem[];
+  nav?: NavItem[];
 }
 
 export interface Profile {
@@ -57,6 +57,7 @@ export interface Project {
   role: string;
   year: string;
   link: string;
+  github?: string;
   image: string;
   highlight?: boolean;
 }
@@ -73,6 +74,7 @@ export interface EducationItem {
   institution: string;
   location: string;
   degree: string;
+  CGPA?: string;
   period: string;
 }
 
