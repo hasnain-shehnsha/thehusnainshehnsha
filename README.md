@@ -1,53 +1,207 @@
-# Arvind Singh Portfolio
+# Husnain Shehnsha - ML/AI Engineer Portfolio
 
-A dark, motion-forward personal portfolio for Arvind Singh, built with React, TypeScript, Vite, Tailwind CSS, Framer Motion, and Lucide icons.
+Welcome to my professional portfolio! I'm **M Husnain Shehnsha**, a Machine Learning and AI Engineer passionate about building intelligent systems, developing RAG applications, and integrating Large Language Models into production environments.
 
-The site is data-driven from `src/data/portfolio.json`, so profile copy, social links, experience, projects, and testimonials can be updated without changing the component code.
+**Portfolio Website**: Built with modern technologies to showcase my skills, projects, and professional experience.
 
-## Features
+---
 
-- Responsive hero section with chrome-gradient display typography
-- Smooth anchor navigation for Home, About, Skills, Projects, and Contact
-- Data-bound About, Experience, Projects, Testimonials, and Footer sections
-- Sticky stacked project cards with image or styled placeholder support
-- CSS-only testimonial marquee with reduced-motion fallback
-- Reusable social link buttons powered by `profile.social`
-- Tailwind-based dark theme with Framer Motion scroll animations
+## 🚀 About Me
 
-## Tech Stack
+I'm an ML/AI Engineer from Islamabad, Pakistan, specializing in:
+- **Machine Learning**: Scikit-learn, TensorFlow, PyTorch
+- **AI/LLM Integration**: LangChain, OpenAI API, Prompt Engineering
+- **RAG Systems**: Vector Databases, Semantic Search
+- **Full-Stack Development**: React, Next.js, TypeScript
+- **Natural Language Processing**: Text Analysis, Embeddings, NLP pipelines
 
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS
-- Framer Motion
-- Lucide React
+Currently interning as an ML Engineer at **DEVNESS** (July 2025 - September 2025).
 
-## Requirements
+📧 **Email**: hasnainshehnsha.ai@gmail.com  
+📱 **Phone**: +92 3404386378  
+🌍 **Location**: Islamabad, Pakistan
 
-- Node.js 18 or newer
-- npm 9 or newer
+---
 
-Check your local versions:
+## 🎓 Education
 
-```bash
-node --version
-npm --version
-```
+**BS Software Engineering**  
+COMSATS University, Islamabad (September 2022 - June 2026)  
+CGPA: 3.67/4.0
 
-## Installation
+**Intermediate**  
+Superior College, Islamabad
 
-Install dependencies from the project root:
+---
+
+## 💼 Featured Projects
+
+### 1. ANIAD - AI-Powered Nutrition & Diet Assistant
+Advanced Retrieval-Augmented Generation system for personalized nutrition guidance.  
+**Stack**: Python, LangChain, OpenAI API, Pinecone, React  
+**Role**: Full-Stack Developer  
+**Year**: 2025  
+[View on GitHub](https://github.com/hasnain-shehnsha)
+
+### 2. Research ChatBot
+LLM-powered conversational assistant for research paper analysis and Q&A.  
+**Stack**: Python, FastAPI, OpenAI, React, PostgreSQL  
+**Role**: Backend Lead  
+**Year**: 2024
+
+### 3. AI Tutor Platform
+Intelligent tutoring system with adaptive learning paths.  
+**Stack**: React, Next.js, Python, TensorFlow  
+**Role**: Full-Stack Developer  
+**Year**: 2024
+
+### 4. Weather System with ML Predictions
+Real-time weather data with machine learning forecasting models.  
+**Stack**: Python, Scikit-learn, React, Flask  
+**Role**: ML Engineer  
+**Year**: 2023
+
+---
+
+## 🛠️ Tech Stack & Skills
+
+### AI/ML
+Python (Advanced) • LangChain • OpenAI API • Scikit-learn • TensorFlow • RAG Systems • Vector Databases • NLP • LLM Integration • Prompt Engineering
+
+### Full-Stack Development
+JavaScript • TypeScript • React • Next.js • Node.js • SQL • PostgreSQL
+
+### Tools & Platforms
+Docker • Git • Jupyter Notebooks • Pandas • NumPy
+
+---
+
+## 📜 Certifications
+
+- Stanford Machine Learning Specialization (DeepLearning.AI)
+- Deep Learning Specialization (Andrew Ng, Coursera)
+- Natural Language Processing with Transformers
+- Advanced LangChain for Production
+
+---
+
+## 🔗 Connect With Me
+
+- **GitHub**: [hasnain-shehnsha](https://github.com/hasnain-shehnsha)
+- **LinkedIn**: [Husnain Shehnsha](https://linkedin.com/in/husnain-shehnsha)
+- **Email**: hasnainshehnsha.ai@gmail.com
+- **Instagram**: [@thehusnainshehnsha](https://instagram.com/thehusnainshehnsha)
+
+---
+
+## 📋 Portfolio Features
+
+This portfolio website includes:
+
+- **Hero Section**: Animated introduction with AI visualization
+- **About Section**: Professional background and expertise
+- **Experience Section**: Work history and achievements
+- **Education Section**: Academic credentials with CGPA
+- **Skills Section**: 30+ technologies across 6 categories
+- **Services Section**: ML Engineering, RAG Systems, LLM Integration
+- **Projects Gallery**: Featured projects with GitHub links and tech stack
+- **Testimonials**: Professional feedback and recommendations
+- **Responsive Design**: Mobile-first approach with smooth animations
+
+---
+
+## 🛠️ Development Setup
+
+This portfolio is built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and modern animations.
+
+### Requirements
+- Node.js 18+
+- npm 9+
+
+### Installation
 
 ```bash
 npm install
 ```
 
-Start the local development server:
+### Run Development Server
 
 ```bash
 npm run dev
 ```
+
+The site will be available at `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/          # Reusable React components
+├── data/               # portfolio.json - Central data source
+├── hooks/              # Custom React hooks (usePortfolio)
+├── types/              # TypeScript type definitions
+├── assets/             # Images and static files
+├── index.css           # Global styles
+├── App.tsx             # Main app component
+└── main.tsx            # React entry point
+```
+
+---
+
+## 💡 Data-Driven Architecture
+
+All portfolio content is managed from `src/data/portfolio.json`, enabling easy updates without modifying component code:
+- Profile information
+- Social links
+- Skills and expertise
+- Work experience
+- Project details
+- Testimonials
+- Education credentials
+
+---
+
+## 🎨 Design & Animations
+
+- **Color Scheme**: Dark theme (#0C0C0C) with cyan (#00D9FF) and purple (#A78BFA) accents
+- **Responsive**: Mobile-first design with Tailwind CSS breakpoints
+- **Animations**: Custom CSS keyframes and Framer Motion for smooth transitions
+- **Typography**: Fluid sizing with clamp() for responsive text
+
+---
+
+## 📝 License
+
+This portfolio website is my personal project. Feel free to use it as inspiration for your own portfolio!
+
+---
+
+## 📬 Contact
+
+Have a project in mind or want to collaborate? Reach out!
+
+**Email**: hasnainshehnsha.ai@gmail.com  
+**Phone**: +92 3404386378  
+**GitHub**: [@hasnain-shehnsha](https://github.com/hasnain-shehnsha)
+
+---
+
+**Last Updated**: June 2026  
+**Owner**: M Husnain Shehnsha
 
 Vite will print the local URL, usually:
 
@@ -144,3 +298,4 @@ Deploy the generated `dist/` folder to any static hosting provider such as Verce
 - Replace any `// FILL IN` values in `portfolio.json`.
 - Add real project images to each `projects[].image` field when available.
 - Run `npm run build` before deployment.
+# thehusnainshehnsha

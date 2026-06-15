@@ -4,30 +4,30 @@ const services = [
   // TODO: Move these service categories into portfolio.json when the data schema is expanded.
   {
     number: '01',
-    name: 'Backend Engineering',
-    description: 'Production-grade APIs, FastAPI/Django services, async pipelines, and the database design that holds it all together.',
+    name: 'RAG Systems & Vector Databases',
+    description: 'Building production-ready Retrieval-Augmented Generation systems using Pinecone, LangChain, and semantic search for intelligent document processing.',
   },
   {
     number: '02',
-    name: 'AI / LLM Systems',
-    description: 'LLM extraction pipelines, semantic matching, RAG architectures, and prompt design for production reliability.',
+    name: 'LLM Integration & Prompt Engineering',
+    description: 'Expert prompt engineering, LLM fine-tuning, API integration with OpenAI, Groq, and other models for reducing hallucinations and ensuring reliability.',
   },
   {
     number: '03',
-    name: 'Frontend Development',
-    description: "React and Next.js applications with TypeScript, Tailwind, and motion design that doesn't get in the way.",
+    name: 'Machine Learning Pipelines',
+    description: 'End-to-end ML pipelines with Python, scikit-learn, NLP, supervised learning, and custom model training for production deployment.',
   },
   {
     number: '04',
-    name: 'Cloud & DevOps',
-    description: 'AWS, GCP, serverless architectures, CI/CD pipelines, and the boring infrastructure work that makes everything else possible.',
+    name: 'Full-Stack AI Applications',
+    description: 'Complete AI application development using FastAPI backends, React/Next.js frontends, and modern deployment with Docker and cloud platforms.',
   },
 ];
 
 export default function ServicesSection() {
   return (
     <section
-      id="skills"
+      id="services"
       className="scroll-mt-20 flex flex-col px-5 sm:px-8 md:px-10 py-20 sm:py-24 md:py-32 rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px]"
       style={{ backgroundColor: '#FFFFFF' }}
     >

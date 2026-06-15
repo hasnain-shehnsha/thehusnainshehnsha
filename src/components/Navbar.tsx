@@ -8,7 +8,7 @@ const navLinks = [
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex justify-between items-center px-6 md:px-10 pt-6 md:pt-8">
+    <nav className="w-full flex justify-between items-center px-6 md:px-10 pt-2 md:pt-3">
       {navLinks.map((link) => (
         <a
           key={link.href}

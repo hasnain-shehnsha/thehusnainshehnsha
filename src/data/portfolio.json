@@ -1,162 +1,185 @@
 {
   "profile": {
-    "name": "Arvind Coder",
-    "shortName": "Arvind Coder",
-    "tagline": "Software engineer building scalable platforms, AI-driven tools, and modern web apps.",
-    "role": "Senior Software Engineer",
-    "specialization": "Backend · AI Systems · Cloud Architecture",
-    "location": "Bangalore, India",
-    "yearsOfExperience": "5+",
-    "bio": "I build production-grade backend systems and AI-powered platforms. Experienced in designing scalable APIs, cloud-native architectures, and data pipelines. Currently working on intelligent automation systems using LLMs and distributed systems.",
+    "name": "M Husnain Shehnsha",
+    "shortName": "Husnain",
+    "tagline": "Machine Learning Engineer specializing in AI-driven solutions, RAG systems, and generative AI applications.",
+    "role": "Machine Learning Engineer",
+    "specialization": "AI & GenAI · Machine Learning · RAG Systems",
+    "location": "Islamabad, Pakistan",
+    "yearsOfExperience": "1+",
+    "bio": "Motivated Software Engineer specializing in the intersection of application development and Artificial Intelligence. Experienced in architecting robust, data-centric pipelines using Python and machine learning algorithms. Proven ability to integrate Large Language Models (LLMs), develop Retrieval-Augmented Generation (RAG) systems, and optimize vector databases. Dedicated to solving complex problems through efficient code and scalable AI solutions.",
     "avatarSvg": "/src/assets/img/avatar.svg",
     "social": {
-      "github": "https://github.com/arvindsingh1099",
-      "instagram": "https://instagram.com/arvind.coder",
-      "linkedin": "https://linkedin.com/in/arvind-s-87251b208",
-      "email": "your.username@gmail.com",
-      "phone": "+91 9999999999",
-      "website": "https://i'dont-know"
+      "github": "https://github.com/hasnain-shehnsha",
+      "instagram": "https://instagram.com/thehusnainshehnsha",
+      "linkedin": "https://linkedin.com/in/thehusnainshehnsha",
+      "email": "hasnainshehnsha.ai@gmail.com",
+      "phone": "+92 3404386378",
+      "website": "https://husnain-portfolio.com"
     }
   },
 
   "skills": {
     "categories": [
       {
-        "name": "Languages",
-        "items": ["Python", "JavaScript", "TypeScript", "Go"]
+        "name": "Core Languages",
+        "items": ["Python (Advanced)", "C++", "SQL", "java"]
       },
       {
-        "name": "Backend",
-        "items": ["FastAPI", "Django", "Node.js", "Express"]
+        "name": "AI & GenAI",
+        "items": ["RAG Systems", "Prompt Engineering", "LLMs", "LangChain", "OpenAI API", "Vector Embeddings", "LlamaIndex", "Groq LLM"]
       },
       {
-        "name": "AI / LLM",
-        "items": ["Prompt Engineering", "RAG", "Vector Search", "LangChain"]
+        "name": "Machine Learning",
+        "items": ["Scikit-learn", "Model Training & Evaluation", "NLP", "Supervised Learning", "TripoSR", "MiDaS"]
       },
       {
         "name": "Frontend",
-        "items": ["React", "Next.js", "Tailwind CSS"]
+        "items": ["React", "Next.js", "Gradio", "Turtle GUI", "Tailwind CSS"]
       },
       {
-        "name": "Databases",
-        "items": ["PostgreSQL", "MongoDB", "Redis"]
+        "name": "Data & Tools",
+        "items": ["Pandas", "NumPy", "Git/GitHub", "Docker", "MongoDB", "Pinecone", "Vector Databases"]
       },
       {
-        "name": "Cloud & Infra",
-        "items": ["AWS", "Docker", "Kubernetes", "Lambda"]
+        "name": "Environments & Frameworks",
+        "items": ["FastAPI", "Flask", "Ubuntu/Linux", "Logic Programming (Prolog)"]
       }
     ]
   },
 
   "experience": [
     {
-      "company": "TechNova Solutions",
-      "role": "Senior Software Engineer",
-      "period": "2023 — Present",
-      "location": "Remote",
-      "summary": "Working on scalable AI-based backend systems and cloud-native architectures.",
+      "company": "DEVNESS",
+      "role": "Machine Learning Engineer (Intern)",
+      "period": "07/2025 — 09/2025",
+      "location": "Islamabad, Pakistan",
+      "summary": "Developed and optimized AI pipelines with focus on RAG systems and LLM integration.",
       "highlights": [
-        "Built distributed microservices using FastAPI and Docker",
-        "Implemented LLM-powered document processing pipeline",
-        "Reduced API latency by 60% through caching strategies",
-        "Designed event-driven architecture using AWS services"
-      ]
-    },
-    {
-      "company": "CloudEdge Pvt Ltd",
-      "role": "Software Engineer",
-      "period": "2021 — 2023",
-      "location": "Pune, India",
-      "summary": "Developed backend systems and optimized large-scale APIs.",
-      "highlights": [
-        "Improved system performance by 40%",
-        "Designed REST APIs for high-traffic applications",
-        "Integrated third-party payment systems",
-        "Handled deployments using CI/CD pipelines"
-      ]
-    },
-    {
-      "company": "DevStack Labs",
-      "role": "Junior Developer",
-      "period": "2019 — 2021",
-      "location": "Ahmedabad, India",
-      "summary": "Worked on full-stack applications and backend services.",
-      "highlights": [
-        "Built CRUD-based applications using Django",
-        "Maintained MySQL databases",
-        "Collaborated with frontend teams",
-        "Fixed production bugs and improved stability"
+        "Developed and optimized RAG pipelines to improve the accuracy of LLM responses using external data sources",
+        "Executed advanced prompt engineering, iteratively refining system instructions to reduce hallucinations and ensure output consistency",
+        "Integrated vector databases and frameworks like LangChain and LlamaIndex to build responsive, context-aware AI applications"
       ]
     }
   ],
 
   "projects": [
     {
-      "id": "ai-platform",
-      "title": "AI Document Analyzer",
-      "subtitle": "LLM-powered document processing",
-      "description": "A platform that extracts, analyzes, and summarizes documents using AI models.",
-      "stack": ["Python", "FastAPI", "OpenAI", "PostgreSQL"],
-      "role": "Backend Developer",
-      "year": "2024",
+      "id": "aniad-text-animation",
+      "title": "ANIAD – Text To Animation",
+      "subtitle": "AI-powered 3D animation generation from text",
+      "description": "An end-to-end pipeline converting text descriptions directly into 3D animations utilizing generative AI models. Integrated TripoSR for accurate 2D-to-3D reconstruction and MiDaS for monocular depth estimation.",
+      "stack": ["Python", "TripoSR", "MiDaS", "Flask", "Next.js"],
+      "role": "AI/ML Developer",
+      "year": "2025",
       "link": "",
-      "image": "https://motionsites.ai/assets/hero-space-voyage-preview-eECLH3Yc.gif",
+      "github": "https://github.com/hasnain-shehnsha/Animate",
+      "image": "/src/assets/img/aniad-project.png",
       "highlight": true
     },
     {
-      "id": "ecommerce",
-      "title": "E-commerce Backend",
-      "subtitle": "Scalable order management system",
-      "description": "Backend system handling orders, payments, and inventory.",
-      "stack": ["Node.js", "MongoDB", "AWS"],
-      "role": "Backend Engineer",
-      "year": "2023",
+      "id": "research-assistant-chatbot",
+      "title": "Research Assistant ChatBot",
+      "subtitle": "RAG-powered intelligent document query system",
+      "description": "A specialized chatbot enabling users to query and extract precise information from curated research documents. Engineered semantic retrieval using vector databases with FastAPI backend and Gradio frontend.",
+      "stack": ["Pinecone", "LangChain", "Groq LLM", "FastAPI", "Gradio", "MongoDB"],
+      "role": "AI Engineer",
+      "year": "2025",
       "link": "",
-      "image": "https://motionsites.ai/assets/hero-codenest-preview-Cgppc2qV.gif"
+      "github": "https://github.com/hasnain-shehnsha/research-assistant-chatBot",
+      "image": "/src/assets/img/research-project.png"
     },
     {
-      "id": "portfolio",
-      "title": "Developer Portfolio",
-      "subtitle": "Personal website",
-      "description": "Modern portfolio website built with React and Tailwind.",
-      "stack": ["React", "Next.js", "Tailwind"],
-      "role": "Frontend Developer",
-      "year": "2022",
+      "id": "ai-tutor-rag",
+      "title": "AI Tutor",
+      "subtitle": "Personalized learning system with RAG",
+      "description": "An end-to-end RAG system functioning as a personalized tutor, enabling users to interact with complex uploaded documents. Built robust text preprocessing pipeline with semantic vector embeddings.",
+      "stack": ["Python", "OpenAI API", "LangChain", "Turtle GUI"],
+      "role": "Full Stack Developer",
+      "year": "2025",
       "link": "",
-      "image": "https://motionsites.ai/assets/hero-vex-ventures-preview-BczMFIiw.gif"
+      "github": "https://github.com/hasnain-shehnsha/ai-tutor",
+      "image": "/src/assets/img/ai-tutor-project.png"
+    },
+    {
+      "id": "weather-expert-system",
+      "title": "Weather Prediction Expert System",
+      "subtitle": "Rule-based logical reasoning system",
+      "description": "A rule-based expert system utilizing a dedicated knowledge base to analyze environmental patterns. Engineered logical rules processing variables to generate weather forecasts with reasoning chains.",
+      "stack": ["Prolog", "Logic Programming"],
+      "role": "Developer",
+      "year": "2025",
+      "link": "",
+      "github": "https://github.com/hasnain-shehnsha/AI-Reactive-System-Mini-Project",
+      "image": "/src/assets/img/weather-project.png"
     }
   ],
 
   "education": [
     {
-      "institution": "National Institute of Technology",
-      "location": "India",
-      "degree": "B.Tech in Computer Science",
-      "period": "2015 — 2019"
+      "institution": "Comsats University Islamabad, Wah Campus",
+      "location": "Wah, Pakistan",
+      "degree": "Bachelor of Science in Software Engineering",
+      "CGPA": "3.67/4.0",
+      "period": "09/2022 — June 2026"
+    },
+    {
+      "institution": "Superior College",
+      "location": "Sialkot, Pakistan",
+      "degree": "Intermediate in Computer Sciences",
+      "period": "09/2020 — 06/2022"
     }
   ],
 
   "testimonials": [
     {
       "id": "t1",
-      "quote": "An exceptional engineer who delivers scalable solutions with precision.",
-      "name": "Amit Sharma",
-      "role": "Engineering Manager",
+      "quote": "Husnain demonstrates exceptional proficiency in AI and machine learning. His RAG implementations are production-ready and well-architected.",
+      "name": "DEVNESS Team",
+      "role": "ML Engineering Manager",
       "avatarColor": "#8b5cf6"
     },
     {
       "id": "t2",
-      "quote": "Highly reliable and always focused on performance and quality.",
-      "name": "Neha Gupta",
-      "role": "Tech Lead",
+      "quote": "Outstanding ability to translate complex AI concepts into practical, working solutions. A valuable asset to any AI-driven project.",
+      "name": "Academic Advisor",
+      "role": "COMSATS University",
       "avatarColor": "#ec4899"
     },
     {
       "id": "t3",
-      "quote": "Strong problem-solving skills and great attention to detail.",
-      "name": "Rahul Verma",
-      "role": "Product Manager",
+      "quote": "Excellent problem-solver with deep expertise in LLMs, prompt engineering, and vector database optimization.",
+      "name": "Project Collaborator",
+      "role": "AI Research Group",
       "avatarColor": "#a855f7"
+    }
+  ],
+
+  "certifications": [
+    {
+      "id": "c1",
+      "title": "Machine Learning Specialization",
+      "issuer": "Stanford University (Online)",
+      "date": "03/2024 — 12/2024",
+      "description": "Supervised & Unsupervised Learning, Recommender Systems, Reinforcement Learning"
+    },
+    {
+      "id": "c2",
+      "title": "Building Generative AI Applications",
+      "issuer": "DeepLearning.AI",
+      "date": "2024"
+    },
+    {
+      "id": "c3",
+      "title": "LangChain for LLM App Development",
+      "issuer": "DeepLearning.AI",
+      "date": "2024"
+    },
+    {
+      "id": "c4",
+      "title": "Prompt Engineering for Developers",
+      "issuer": "OpenAI & DeepLearning.AI",
+      "date": "2024"
     }
   ]
 }
