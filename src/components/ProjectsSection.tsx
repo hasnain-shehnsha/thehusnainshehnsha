@@ -1,11 +1,21 @@
 import { useRef } from 'react';
 import FadeIn from './FadeIn';
 import { usePortfolio } from '../hooks/usePortfolio';
+import aniadImg from '../assets/img/aniad-project.png';
+import researchImg from '../assets/img/research-project.png';
+import aiTutorImg from '../assets/img/ai-tutor-project.png';
+import weatherImg from '../assets/img/weather-project.png';
 
 export default function ProjectsSection() {
   const { projects } = usePortfolio();
   
-  if (!projects?.length) return null;
+  // Map project IDs to imported images
+  const imageMap: { [key: string]: string } = {
+    'aniad-text-animation': aniadImg,
+    'research-assistant-chatbot': researchImg,
+    'ai-tutor-rag': aiTutorImg,
+    'weather-expert-system': weatherImg,
+  };
 
   const orderedProjects = [...projects].sort((a, b) => Number(Boolean(b.highlight)) - Number(Boolean(a.highlight)));
 
@@ -42,7 +52,7 @@ export default function ProjectsSection() {
               {/* Project Image */}
               <div className="relative w-full h-[250px] sm:h-[280px] overflow-hidden bg-gradient-to-br from-[#00D9FF]/10 to-[#A78BFA]/10">
                 <img
-                  src={project.image}
+                  src={imageMap[project.id] || project.image}
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
