@@ -102,16 +102,16 @@
       "image": "/src/assets/img/ai-tutor-project.png"
     },
     {
-      "id": "weather-expert-system",
-      "title": "Weather Prediction Expert System",
-      "subtitle": "Rule-based logical reasoning system",
-      "description": "A rule-based expert system utilizing a dedicated knowledge base to analyze environmental patterns. Engineered logical rules processing variables to generate weather forecasts with reasoning chains.",
-      "stack": ["Prolog", "Logic Programming"],
+      "id": "ai-recruiter-vapi",
+      "title": "AI Recruiter — Voice-Based Multi-Agent System",
+      "subtitle": "Multi-agent voice AI for automated candidate screening & scheduling",
+      "description": "A multi-agent AI recruiter built with VAPI, featuring a squad of 4 specialized voice assistants (Greeting, Verification, Screening, Scheduling) that call candidates, verify identity, run a 15-rule eligibility engine, and book interviews autonomously. Call data, recordings, and transcriptions sync in real time to MongoDB via a FastAPI backend.",
+      "stack": ["Python", "VAPI", "FastAPI", "MongoDB"],
       "role": "Developer",
-      "year": "2025",
+      "year": "2026",
       "link": "",
-      "github": "https://github.com/hasnain-shehnsha/AI-Reactive-System-Mini-Project",
-      "image": "/src/assets/img/weather-project.png"
+      "github": "https://github.com/hasnain-shehnsha/DEVNESS-Ai-Recruiter",
+      "image": "/src/assets/img/ai-recruiter-project.png"
     }
   ],
 
