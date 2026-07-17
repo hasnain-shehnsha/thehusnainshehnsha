@@ -70,7 +70,7 @@
       "subtitle": "AI-powered 3D animation generation from text",
       "description": "An end-to-end pipeline converting text descriptions directly into 3D animations utilizing generative AI models. Integrated TripoSR for accurate 2D-to-3D reconstruction and MiDaS for monocular depth estimation.",
       "stack": ["Python", "TripoSR", "MiDaS", "Flask", "Next.js"],
-      "role": "AI/ML Developer",
+      "role": "AI Full stack Engineer",
       "year": "2025",
       "link": "",
       "github": "https://github.com/hasnain-shehnsha/Animate",
@@ -95,7 +95,7 @@
       "subtitle": "Personalized learning system with RAG",
       "description": "An end-to-end RAG system functioning as a personalized tutor, enabling users to interact with complex uploaded documents. Built robust text preprocessing pipeline with semantic vector embeddings.",
       "stack": ["Python", "OpenAI API", "LangChain", "Turtle GUI"],
-      "role": "Full Stack Developer",
+      "role": "AI Engineer",
       "year": "2025",
       "link": "",
       "github": "https://github.com/hasnain-shehnsha/ai-tutor",
@@ -107,11 +107,23 @@
       "subtitle": "Multi-agent voice AI for automated candidate screening & scheduling",
       "description": "A multi-agent AI recruiter built with VAPI, featuring a squad of 4 specialized voice assistants (Greeting, Verification, Screening, Scheduling) that call candidates, verify identity, run a 15-rule eligibility engine, and book interviews autonomously. Call data, recordings, and transcriptions sync in real time to MongoDB via a FastAPI backend.",
       "stack": ["Python", "VAPI", "FastAPI", "MongoDB"],
-      "role": "Developer",
+      "role": "AI Engineer",
       "year": "2026",
       "link": "",
       "github": "https://github.com/hasnain-shehnsha/DEVNESS-Ai-Recruiter",
       "image": "/src/assets/img/ai-recruiter-project.png"
+    },
+    {
+      "id": "trialmatch",
+      "title": "TrialMatch — AI-Powered Clinical Trial Eligibility Engine",
+      "subtitle": "LLM-based patient-to-trial matching with evidence-cited eligibility decisions",
+      "description": "An AI-powered eligibility engine that matches patients to clinical trials in seconds instead of weeks. Cross-references a patient's medical summary against dense trial inclusion/exclusion criteria using Groq + Instructor for deterministic, structured LLM outputs, with Langfuse tracing for full reasoning transparency. Heavy AI evaluations are offloaded to Celery/Redis background workers so the FastAPI backend stays responsive. Data is stored in PostgreSQL with pgvector for future semantic search, and the system is rate-limited (SlowAPI) and load-tested (Locust) to sustain hundreds of concurrent users. A glassmorphic React + Tailwind frontend lets coordinators review the AI's step-by-step reasoning.",
+      "stack": ["Python", "FastAPI", "Groq", "Instructor", "Langfuse", "Celery", "Redis", "PostgreSQL", "pgvector", "SQLAlchemy", "Docker", "React", "Tailwind CSS"],
+      "role": "Ai Full Stack Engineer",
+      "year": "2026",
+      "link": "",
+      "github": "https://github.com/hasnain-shehnsha/TrialMatch",
+      "image": "/src/assets/img/trialmatch-project.png"
     }
   ],
 
