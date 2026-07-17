@@ -8,7 +8,7 @@
     "location": "Islamabad, Pakistan",
     "yearsOfExperience": "1+",
     "bio": "Motivated Software Engineer specializing in the intersection of application development and Artificial Intelligence. Experienced in architecting robust, data-centric pipelines using Python and machine learning algorithms. Proven ability to integrate Large Language Models (LLMs), develop Retrieval-Augmented Generation (RAG) systems, and optimize vector databases. Dedicated to solving complex problems through efficient code and scalable AI solutions.",
-    "avatarSvg": "/src/assets/img/avatar.svg",
+    "avatarSvg": "/assets/img/avatar.svg",
     "social": {
       "github": "https://github.com/hasnain-shehnsha",
       "instagram": "https://instagram.com/thehusnainshehnsha",
@@ -74,7 +74,7 @@
       "year": "2025",
       "link": "",
       "github": "https://github.com/hasnain-shehnsha/Animate",
-      "image": "/src/assets/img/aniad-project.png",
+      "image": "/assets/img/aniad-project.png",
       "highlight": true
     },
     {
@@ -87,7 +87,7 @@
       "year": "2025",
       "link": "",
       "github": "https://github.com/hasnain-shehnsha/research-assistant-chatBot",
-      "image": "/src/assets/img/research-project.png"
+      "image": "/assets/img/research-project.png"
     },
     {
       "id": "ai-tutor-rag",
@@ -99,7 +99,7 @@
       "year": "2025",
       "link": "",
       "github": "https://github.com/hasnain-shehnsha/ai-tutor",
-      "image": "/src/assets/img/ai-tutor-project.png"
+      "image": "/assets/img/ai-tutor-project.png"
     },
     {
       "id": "ai-recruiter-vapi",
@@ -111,7 +111,7 @@
       "year": "2026",
       "link": "",
       "github": "https://github.com/hasnain-shehnsha/DEVNESS-Ai-Recruiter",
-      "image": "/src/assets/img/ai-recruiter-project.png"
+      "image": "/assets/img/ai-recruiter-project.png"
     },
     {
       "id": "trialmatch",
@@ -123,7 +123,7 @@
       "year": "2026",
       "link": "",
       "github": "https://github.com/hasnain-shehnsha/TrialMatch",
-      "image": "/src/assets/img/rialmatch-project.png"
+      "image": "/assets/img/trialmatch-project.png"
     }
   ],
 

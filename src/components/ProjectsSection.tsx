@@ -5,6 +5,9 @@ import aniadImg from '../assets/img/aniad-project.png';
 import researchImg from '../assets/img/research-project.png';
 import aiTutorImg from '../assets/img/ai-tutor-project.png';
 import weatherImg from '../assets/img/weather-project.png';
+import recruiterImg from '../assets/img/ai-recruiter-project.png';
+import trialMatchImg from '../assets/img/trialmatch-project.png';
+
 
 export default function ProjectsSection() {
   const { projects } = usePortfolio();
@@ -15,6 +18,8 @@ export default function ProjectsSection() {
     'research-assistant-chatbot': researchImg,
     'ai-tutor-rag': aiTutorImg,
     'weather-expert-system': weatherImg,
+    'ai-recruiter-vapi': recruiterImg,
+    'trialmatch': trialMatchImg,
   };
 
   const orderedProjects = [...projects].sort((a, b) => Number(Boolean(b.highlight)) - Number(Boolean(a.highlight)));
