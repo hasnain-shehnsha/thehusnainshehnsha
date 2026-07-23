@@ -51,14 +51,25 @@
   "experience": [
     {
       "company": "DEVNESS",
-      "role": "Machine Learning Engineer (Intern)",
-      "period": "07/2025 — 09/2025",
+      "role": "AI Engineer (Onsite)",
+      "period": "02/2025 – Present",
       "location": "Islamabad, Pakistan",
-      "summary": "Developed and optimized AI pipelines with focus on RAG systems and LLM integration.",
+      "summary": "Architected production-grade AI systems with RAG pipelines, containerized services, and LLM integrations for high-volume conversational applications.",
       "highlights": [
-        "Developed and optimized RAG pipelines to improve the accuracy of LLM responses using external data sources",
-        "Executed advanced prompt engineering, iteratively refining system instructions to reduce hallucinations and ensure output consistency",
-        "Integrated vector databases and frameworks like LangChain and LlamaIndex to build responsive, context-aware AI applications"
+        "Built production-grade RAG pipelines with LangChain and Pinecone to improve retrieval accuracy and reduce LLM hallucinations",
+        "Containerized AI microservices with Docker and orchestrated deployments with Kubernetes to improve scalability and reliability",
+        "Integrated OpenAI and Groq APIs to power conversational agents with low-latency, high-volume query handling"
+      ]
+    },
+    {
+      "company": "DEVNESS",
+      "role": "Machine Learning Engineer (Intern)",
+      "period": "11/2025 – 01/2026",
+      "location": "Islamabad, Pakistan",
+      "summary": "Developed and evaluated baseline RAG frameworks and refined prompt strategies to accelerate internal knowledge retrieval and improve response consistency.",
+      "highlights": [
+        "Developed and evaluated baseline RAG frameworks for indexing large document repositories and accelerating internal knowledge retrieval",
+        "Executed prompt engineering across core features to refine system instructions and improve output consistency and reliability"
       ]
     }
   ],
